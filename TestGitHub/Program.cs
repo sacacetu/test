@@ -6,7 +6,8 @@ namespace TestGitHub
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ciao Mondo!");
+            const string pippo = "Ciao Mondo!";
+            Console.WriteLine(pippo);
         }
     }
 }
